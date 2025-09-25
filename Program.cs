@@ -12,8 +12,10 @@ namespace W5_assignment_template
             var character = new Character();
             var goblin = new Goblin();
             var ghost = new Ghost();
+            Dragon seaDragon = new SeaDragon();
+            Dragon flyingDragon = new FlyingDragon();
 
-            var gameEngine = new GameEngine(character, goblin, ghost);
+            var gameEngine = new GameEngine(character, goblin, ghost, seaDragon, flyingDragon);
             gameEngine?.Run();
         }
 

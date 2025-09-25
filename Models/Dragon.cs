@@ -1,0 +1,20 @@
+using W5_assignment_template.Interfaces;
+
+namespace W5_assignment_template.Models
+{
+    public class Dragon : IEntity
+    {
+        public string Name { get; set; }
+
+        public void Attack(IEntity target)
+        {
+            Console.WriteLine($"{Name} attacks {target.Name} with a terrifying burst of fire.");
+        }
+
+        public void Move()
+        {
+            Console.WriteLine($"{Name} moves elegantly");
+        }
+    }
+
+}
