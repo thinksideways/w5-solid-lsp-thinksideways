@@ -9,5 +9,4 @@ namespace W5_assignment_template.Models
             Console.WriteLine($"{Name} flies gracefully through the clouds....");
         }
     }
-
 }

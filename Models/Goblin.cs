@@ -16,5 +16,4 @@ namespace W5_assignment_template.Models
             Console.WriteLine($"{Name} moves aggressively.");
         }
     }
-
 }

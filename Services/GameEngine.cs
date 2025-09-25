@@ -38,6 +38,8 @@ namespace W5_assignment_template.Services
             _ghost.Attack(_character);
             ((Ghost) _ghost).Fly();
 
+            // Demonstrating ISP via implementing ISwimmable and IFlyable interfaces based on the appropriate dragon subclass
+            // and LSP via use of inherited Move() and Attack() methods.
             _seaDragon.Move();
             _seaDragon.Attack(_character);
             ((SeaDragon) _seaDragon).Swim();

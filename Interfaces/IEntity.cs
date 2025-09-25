@@ -6,5 +6,4 @@
         void Move();
         string Name { get; set; }
     }
-
 }
